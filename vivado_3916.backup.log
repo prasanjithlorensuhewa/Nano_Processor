@@ -1,0 +1,1917 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jul 25 21:10:27 2022
+# Process ID: 3916
+# Current directory: E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7992 E:\Academia @ CSE\Semester 02\CS1050 Computer Organization and Digital Design\Xlinix Vivado\Nano_Final\Nano\Nano.xpr
+# Log file: E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/vivado.log
+# Journal file: E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 881.012 ; gain = 180.965
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Instruction_Decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Instruction_Decoder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sim_1/new/TB_Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Instruction_Decoder
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Instruction_Decoder_behav xil_defaultlib.TB_Instruction_Decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_instruction_decoder
+Built simulation snapshot TB_Instruction_Decoder_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source E:/Academia -notrace
+couldn't read file "E:/Academia": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Mon Jul 25 21:13:24 2022...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Instruction_Decoder_behav -key {Behavioral:sim_1:Functional:TB_Instruction_Decoder} -tclbatch {TB_Instruction_Decoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source TB_Instruction_Decoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Instruction_Decoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 924.016 ; gain = 13.750
+set_property top Final_Project_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Nano_Processor
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source E:/Academia -notrace
+couldn't read file "E:/Academia": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Mon Jul 25 21:13:43 2022...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 937.715 ; gain = 10.164
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 942.293 ; gain = 0.504
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 950.215 ; gain = 3.438
+set_property top TB_Instruction_Decoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Instruction_Decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Instruction_Decoder_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Instruction_Decoder_behav xil_defaultlib.TB_Instruction_Decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_instruction_decoder
+Built simulation snapshot TB_Instruction_Decoder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Instruction_Decoder_behav -key {Behavioral:sim_1:Functional:TB_Instruction_Decoder} -tclbatch {TB_Instruction_Decoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source TB_Instruction_Decoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Instruction_Decoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 953.578 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Instruction_Decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Instruction_Decoder_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Instruction_Decoder_behav xil_defaultlib.TB_Instruction_Decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_instruction_decoder
+Built simulation snapshot TB_Instruction_Decoder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Instruction_Decoder_behav -key {Behavioral:sim_1:Functional:TB_Instruction_Decoder} -tclbatch {TB_Instruction_Decoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source TB_Instruction_Decoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Instruction_Decoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 966.125 ; gain = 0.000
+set_property top Final_Project_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_4
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 966.125 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 969.582 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 969.582 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 969.582 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 969.582 ; gain = 0.000
+set_property top Instruction_Decoder [current_fileset]
+update_compile_order -fileset sources_1
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 971.887 ; gain = 0.828
+set_property top TB_Instruction_Decoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_6
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Instruction_Decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Instruction_Decoder_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Instruction_Decoder_behav xil_defaultlib.TB_Instruction_Decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_instruction_decoder
+Built simulation snapshot TB_Instruction_Decoder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Instruction_Decoder_behav -key {Behavioral:sim_1:Functional:TB_Instruction_Decoder} -tclbatch {TB_Instruction_Decoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source TB_Instruction_Decoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Instruction_Decoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 973.453 ; gain = 0.000
+set_property top Final_Project_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_12
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 980.020 ; gain = 0.000
+set_property top TB_Instruction_Decoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_13
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Instruction_Decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Instruction_Decoder_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Instruction_Decoder_behav xil_defaultlib.TB_Instruction_Decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_instruction_decoder
+Built simulation snapshot TB_Instruction_Decoder_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Instruction_Decoder_behav -key {Behavioral:sim_1:Functional:TB_Instruction_Decoder} -tclbatch {TB_Instruction_Decoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source TB_Instruction_Decoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Instruction_Decoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+set_property top Final_Project_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_14
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 980.020 ; gain = 0.000
+set_property top TB_Instruction_Decoder [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_15
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Instruction_Decoder' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Instruction_Decoder_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Instruction_Decoder_behav xil_defaultlib.TB_Instruction_Decoder -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Instruction_Decoder_behav -key {Behavioral:sim_1:Functional:TB_Instruction_Decoder} -tclbatch {TB_Instruction_Decoder.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source TB_Instruction_Decoder.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Instruction_Decoder_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+set_property top Final_Project_sim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+current_sim simulation_16
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+current_wave_config {Untitled 18}
+Untitled 18
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/I}} 
+save_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+add_files -fileset sim_1 -norecurse {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}}
+set_property xsim.view {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav1.wcfg} {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}} [get_filesets sim_1]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -view {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 993.086 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -view {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 993.086 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -view {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 993.086 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -view {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 993.086 ; gain = 0.000
+current_wave_config {Final_Project_sim_behav2.wcfg}
+Final_Project_sim_behav2.wcfg
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/I}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+Final_Project_sim_behav2.wcfg
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/Jump_Address}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+Final_Project_sim_behav2.wcfg
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/Jump_Flag}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+Final_Project_sim_behav2.wcfg
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Slow_Clk_0/Clk_out}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+Final_Project_sim_behav2.wcfg
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Register_Bank_0/Reg_1/Q}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+Final_Project_sim_behav2.wcfg
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Register_Bank_0/Reg_2/Q}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+Final_Project_sim_behav2.wcfg
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Register_Bank_0/Reg_7/Q}} 
+current_wave_config {Final_Project_sim_behav2.wcfg}
+Final_Project_sim_behav2.wcfg
+add_wave {{/Final_Project_sim/uut/Nano_Processor_0/Instruction_Decoder_0/Reg_En}} 
+save_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -view {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_ROM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -view {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -view {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1179.844 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Final_Project_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Final_Project_sim_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto d93f699249d04ddabd0315212acef403 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Final_Project_sim_behav xil_defaultlib.Final_Project_sim -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_2_to_4 [decorder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decorder_3_to_8 [decorder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank [register_bank_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4_Bit [mux_8_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.AddSubUnit_4 [addsubunit_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_to_1 [mux_2_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4_Bit [mux_2_way_4_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Bit_3_adder [bit_3_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3_Bit [mux_2_way_3_bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_counter [program_counter_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM [program_rom_default]
+Compiling architecture behavioral of entity xil_defaultlib.Nano_Processor [nano_processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.Final_Project [final_project_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_project_sim
+Built simulation snapshot Final_Project_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Final_Project_sim_behav -key {Behavioral:sim_1:Functional:Final_Project_sim} -tclbatch {Final_Project_sim.tcl} -view {{E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+open_wave_config {E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Final_Project_sim_behav2.wcfg}
+source Final_Project_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Final_Project_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1179.844 ; gain = 0.000
+set_property top Final_Project [current_fileset]
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Final_Project
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1288.883 ; gain = 109.039
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Final_Project' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Final_Project.vhd:46]
+INFO: [Synth 8-3491] module 'LUT_16_7' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/LUT_16_7.vhd:35' bound to instance 'LUT_16_7_0' of component 'LUT_16_7' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Final_Project.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'LUT_16_7' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/LUT_16_7.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'LUT_16_7' (1#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/LUT_16_7.vhd:40]
+INFO: [Synth 8-3491] module 'Nano_Processor' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:34' bound to instance 'Nano_Processor_0' of component 'Nano_Processor' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Final_Project.vhd:72]
+INFO: [Synth 8-638] synthesizing module 'Nano_Processor' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:42]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Slow_Clk.vhd:34' bound to instance 'Slow_Clk_0' of component 'Slow_Clk' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (2#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-3491] module 'Register_Bank' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:34' bound to instance 'Register_Bank_0' of component 'Register_Bank' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:168]
+INFO: [Synth 8-638] synthesizing module 'Register_Bank' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:50]
+INFO: [Synth 8-3491] module 'Decorder_3_to_8' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Decorder_3_to_8.vhd:34' bound to instance 'Decorder_3_to_8_0' of component 'Decorder_3_to_8' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'Decorder_3_to_8' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Decorder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decorder_2_to_4' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Decorder_2_to_4.vhd:34' bound to instance 'Decorder_2_to_4_0' of component 'Decorder_2_to_4' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Decorder_3_to_8.vhd:48]
+INFO: [Synth 8-638] synthesizing module 'Decorder_2_to_4' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Decorder_2_to_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decorder_2_to_4' (3#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Decorder_2_to_4.vhd:40]
+INFO: [Synth 8-3491] module 'Decorder_2_to_4' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Decorder_2_to_4.vhd:34' bound to instance 'Decorder_2_to_4_1' of component 'Decorder_2_to_4' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Decorder_3_to_8.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'Decorder_3_to_8' (4#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Decorder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_0' of component 'Reg' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'Reg' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (5#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd:42]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_1' of component 'Reg' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:79]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_2' of component 'Reg' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:87]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_3' of component 'Reg' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:95]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_4' of component 'Reg' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:103]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_5' of component 'Reg' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:111]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_6' of component 'Reg' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:119]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Reg.vhd:34' bound to instance 'Reg_7' of component 'Reg' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:127]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank' (6#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Register_Bank.vhd:50]
+INFO: [Synth 8-3491] module 'Mux_8_way_4_Bit' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_8_way_4_Bit.vhd:34' bound to instance 'Mux_8_way_4_Bit_0' of component 'Mux_8_way_4_Bit' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:185]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_way_4_Bit' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_8_way_4_Bit.vhd:48]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_0' of component 'Mux_8_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_8_way_4_Bit.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Decorder_3_to_8' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Decorder_3_to_8.vhd:34' bound to instance 'Decorder_3_to_8_0' of component 'Decorder_3_to_8' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Mux_8_to_1.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_to_1' (7#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_1' of component 'Mux_8_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_8_way_4_Bit.vhd:70]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_2' of component 'Mux_8_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_8_way_4_Bit.vhd:84]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_3' of component 'Mux_8_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_8_way_4_Bit.vhd:98]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_way_4_Bit' (8#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_8_way_4_Bit.vhd:48]
+INFO: [Synth 8-3491] module 'Mux_8_way_4_Bit' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_8_way_4_Bit.vhd:34' bound to instance 'Mux_8_way_4_Bit_1' of component 'Mux_8_way_4_Bit' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:200]
+INFO: [Synth 8-3491] module 'AddSubUnit_4' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/AddSubUnit_4.vhd:34' bound to instance 'AddSubUnit_4_0' of component 'AddSubUnit_4' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:215]
+INFO: [Synth 8-638] synthesizing module 'AddSubUnit_4' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/AddSubUnit_4.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/AddSubUnit_4.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'FA' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/FA.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'HA' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (9#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/FA.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'FA' (10#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/AddSubUnit_4.vhd:60]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/AddSubUnit_4.vhd:68]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/AddSubUnit_4.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'AddSubUnit_4' (11#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/AddSubUnit_4.vhd:42]
+INFO: [Synth 8-3491] module 'Mux_2_way_4_Bit' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_4_Bit.vhd:34' bound to instance 'Mux_2_way_4_Bit_0' of component 'Mux_2_way_4_Bit' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:225]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_way_4_Bit' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_4_Bit.vhd:42]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_0' of component 'Mux_2_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_4_Bit.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_to_1.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_to_1' (12#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_1' of component 'Mux_2_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_4_Bit.vhd:59]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_2' of component 'Mux_2_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_4_Bit.vhd:68]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_3' of component 'Mux_2_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_4_Bit.vhd:77]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_way_4_Bit' (13#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_4_Bit.vhd:42]
+INFO: [Synth 8-3491] module 'Instruction_Decoder' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd:34' bound to instance 'Instruction_Decoder_0' of component 'Instruction_Decoder' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:234]
+INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (14#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd:47]
+INFO: [Synth 8-3491] module 'Bit_3_adder' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Bit_3_adder.vhd:34' bound to instance 'Bit_3_adder_0' of component 'Bit_3_adder' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:249]
+INFO: [Synth 8-638] synthesizing module 'Bit_3_adder' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Bit_3_adder.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Bit_3_adder.vhd:52]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Bit_3_adder.vhd:60]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Bit_3_adder.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'Bit_3_adder' (15#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Bit_3_adder.vhd:42]
+INFO: [Synth 8-3491] module 'Mux_2_way_3_Bit' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_3_Bit.vhd:34' bound to instance 'Mux_2_way_3_Bit_0' of component 'Mux_2_way_3_Bit' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:258]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_way_3_Bit' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_3_Bit.vhd:42]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_0' of component 'Mux_2_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_3_Bit.vhd:50]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_1' of component 'Mux_2_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_3_Bit.vhd:59]
+INFO: [Synth 8-3491] module 'Mux_2_to_1' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_to_1.vhd:34' bound to instance 'Mux_2_to_1_2' of component 'Mux_2_to_1' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_3_Bit.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_way_3_Bit' (16#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Mux_2_way_3_Bit.vhd:42]
+INFO: [Synth 8-3491] module 'Program_counter' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_counter.vhd:34' bound to instance 'Program_counter_0' of component 'Program_counter' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:267]
+INFO: [Synth 8-638] synthesizing module 'Program_counter' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_counter.vhd:41]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_0' of component 'D_FF' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_counter.vhd:51]
+INFO: [Synth 8-638] synthesizing module 'D_FF' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/D_FF.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'D_FF' (17#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/D_FF.vhd:42]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_1' of component 'D_FF' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_counter.vhd:58]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/imports/new/D_FF.vhd:34' bound to instance 'D_FF_2' of component 'D_FF' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_counter.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'Program_counter' (18#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_counter.vhd:41]
+INFO: [Synth 8-3491] module 'Program_ROM' declared at 'E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_ROM.vhd:34' bound to instance 'Program_ROM_0' of component 'Program_ROM' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:275]
+INFO: [Synth 8-638] synthesizing module 'Program_ROM' [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_ROM.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Program_ROM' (19#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Program_ROM.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Nano_Processor' (20#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Nano_Processor.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Final_Project' (21#1) [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/sources_1/new/Final_Project.vhd:46]
+WARNING: [Synth 8-3917] design Final_Project has port an[3] driven by constant 1
+WARNING: [Synth 8-3917] design Final_Project has port an[2] driven by constant 1
+WARNING: [Synth 8-3917] design Final_Project has port an[1] driven by constant 1
+WARNING: [Synth 8-3917] design Final_Project has port an[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1332.344 ; gain = 152.500
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1332.344 ; gain = 152.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1332.344 ; gain = 152.500
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-141] Inserted 4 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/constrs_1/imports/vivado/Basys3Labs.xdc]
+Finished Parsing XDC File [E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.srcs/constrs_1/imports/vivado/Basys3Labs.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1687.668 ; gain = 507.824
+95 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1687.668 ; gain = 507.824
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Mon Jul 25 23:56:44 2022] Launched synth_1...
+Run output will be captured here: E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Mon Jul 25 23:57:20 2022] Launched impl_1...
+Run output will be captured here: E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.runs/impl_1/runme.log
+close_design
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 2121.176 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 2121.176 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  LDCP => LDCP (GND, LUT3, LUT3, LDCE, VCC): 1 instances
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:12 . Memory (MB): peak = 2167.461 ; gain = 478.816
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Mon Jul 25 23:58:56 2022] Launched impl_1...
+Run output will be captured here: E:/Academia @ CSE/Semester 02/CS1050 Computer Organization and Digital Design/Xlinix Vivado/Nano_Final/Nano/Nano.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 26 00:00:29 2022...

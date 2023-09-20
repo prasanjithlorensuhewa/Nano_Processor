@@ -1,0 +1,827 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 4444
+License: Customer
+
+Current time: 	Wed Jul 20 11:27:55 IST 2022
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 15 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	IPJ
+User home directory: C:/Users/94703
+User working directory: C:/Users/94703/Downloads/Nano
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/94703/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/94703/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/94703/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/94703/Downloads/Nano/vivado.log
+Vivado journal file location: 	C:/Users/94703/Downloads/Nano/vivado.jou
+Engine tmp dir: 	C:/Users/94703/Downloads/Nano/.Xil/Vivado-4444-IP-Acer
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	179 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 507 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 68 MB (+69196kb) [00:00:13]
+// [Engine Memory]: 472 MB (+343263kb) [00:00:13]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\94703\Downloads\Nano\Nano.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/94703/Downloads/Nano/Nano.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 552 MB (+59499kb) [00:00:17]
+// HMemoryUtils.trashcanNow. Engine heap size: 552 MB. GUI used memory: 37 MB. Current time: 7/20/22 11:27:58 AM IST
+// Tcl Message: open_project C:/Users/94703/Downloads/Nano/Nano.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/HP/Desktop/Lab9/Final/Nano' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 593 MB (+14125kb) [00:00:23]
+// Project name: Nano; location: C:/Users/94703/Downloads/Nano; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 793.016 ; gain = 95.820 
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 247ms to process. Increasing delay to 2000 ms.
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 12 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1); // B (D, ck)
+// PAPropertyPanels.initPanels (Instruction_Decoder.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Instruction_Decoder.vhd]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, Instruction_Decoder.vhd]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+floatView(PAResourceOtoP.PAViews_CODE, "Instruction_Decoder.vhd"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 46 MB. Current time: 7/20/22 11:28:28 AM IST
+// [Engine Memory]: 628 MB (+5228kb) [00:00:51]
+// [GUI Memory]: 76 MB (+4897kb) [00:01:06]
+// Elapsed time: 23 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 504, 360); // ce (w, aG)
+// Elapsed time: 86 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 433, 658); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 186, 907); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 131, 417); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 143, 372); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 225, 447); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 157, 445); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 189, 452); // ce (w, aG)
+// Elapsed time: 19 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 67, 280); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 67, 280, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 51, 483); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 41, 466); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 106, 282); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 106, 282, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 16, 490); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 58, 447); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 58, 447, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 60, 469); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 48, 478); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 168, 446); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 173, 448); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 189, 449); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 68, 468); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 82, 493); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 79, 485); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 87, 466); // ce (w, aG)
+// Elapsed time: 22 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 86, 297); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 86, 297, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 128, 493); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 184, 479); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 83, 513); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 71, 498); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 100, 501); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 205, 508); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 235, 502); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 361, 509); // ce (w, aG)
+// Elapsed time: 16 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 111, 437); // ce (w, aG)
+// Elapsed time: 10 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 169, 384); // ce (w, aG)
+// Elapsed time: 24 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 135, 386); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 150, 387); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 159, 383); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 17, 491); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 17, 492, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 160, 388); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 10, 507); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 10, 507, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 165, 405); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 198, 395); // ce (w, aG)
+// Elapsed time: 26 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 174, 522); // ce (w, aG)
+// Elapsed time: 38 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 195, 384); // ce (w, aG)
+// Elapsed time: 26 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 208, 386); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 185, 376); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 53, 383); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 52, 383); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 61, 383); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 58, 383, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 57, 383); // ce (w, aG)
+// Elapsed time: 19 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 193, 405); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 196, 392); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 196, 383); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 194, 407); // ce (w, aG)
+// [GUI Memory]: 82 MB (+1941kb) [00:07:21]
+// Elapsed time: 12 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 61, 426); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 11, 423); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 2, 417); // ce (w, aG)
+typeControlKey(null, null, 'z');
+// Elapsed time: 118 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 92, 419); // ce (w, aG)
+// Elapsed time: 13 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 106, 270); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 106, 270, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 195, 500); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 222, 507); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 227, 526); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 139, 520); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 180, 522); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 179, 522, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 233, 539); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 167, 517); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 172, 550); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 183, 514); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 277, 533); // ce (w, aG)
+// [GUI Memory]: 88 MB (+1814kb) [00:11:11]
+// Elapsed time: 125 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 300, 520); // ce (w, aG)
+// Elapsed time: 27 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 189, 524); // ce (w, aG)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Instruction_Decoder.vhd", 424, 513); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 454, 513); // ce (w, aG)
+// Elapsed time: 97 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 71, 538); // ce (w, aG)
+// [GUI Memory]: 93 MB (+490kb) [00:14:26]
+// Elapsed time: 18 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 197, 564); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 204, 506); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 207, 556); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 179, 527); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 132, 515); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+// Elapsed time: 19 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 472, 549); // ce (w, aG)
+// Elapsed time: 16 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 168, 489); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 168, 489, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 94, 185); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 94, 185, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 120, 550); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 157, 480); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 157, 480, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 200, 489); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 144, 552); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 100, 556); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 196, 551); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 194, 575); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 169, 552); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 308, 506); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 301, 519); // ce (w, aG)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+// Elapsed time: 26 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 158, 488); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 178, 489); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 186, 487); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 197, 497); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 178, 484); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 184, 485); // ce (w, aG)
+// [GUI Memory]: 98 MB (+579kb) [00:16:21]
+// Elapsed time: 154 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 190, 386); // ce (w, aG)
+// Elapsed time: 16 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 191, 432); // ce (w, aG)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Instruction_Decoder.vhd", 308, 409); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 211, 436); // ce (w, aG)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Instruction_Decoder.vhd", 226, 447); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 237, 429); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 212, 441); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 199, 454); // ce (w, aG)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Instruction_Decoder.vhd", 203, 461); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 68, 465); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 55, 452); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 195, 453); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 131, 452); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 115, 98); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 115, 98, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 61, 465); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 158, 451); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 156, 450, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 153, 450); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 153, 450, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 205, 454); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 122, 470); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 390, 463); // ce (w, aG)
+// Elapsed time: 24 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 346, 471); // ce (w, aG)
+// Elapsed time: 15 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 64, 502); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 35, 498); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 130, 489); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 95, 486); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 69, 429); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 59, 434); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 59, 435, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 63, 436); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 64, 436); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 58, 448); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 62, 471); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 137, 493); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 93, 504); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 138, 351); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 239, 380); // ce (w, aG)
+// Elapsed time: 12 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 293, 398); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 282, 388); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 78, 504); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 77, 523); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 3, 524); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 109, 507); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 146, 658); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 285, 538); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 285, 538, false, false, false, false, true); // ce (w, aG) - Double Click
+// Elapsed time: 31 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 209, 466); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 52, 433); // ce (w, aG)
+// Elapsed time: 18 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 122, 405); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 115, 398); // ce (w, aG)
+// Elapsed time: 16 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 191, 411); // ce (w, aG)
+// Elapsed time: 70 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 233, 456); // ce (w, aG)
+// Elapsed time: 17 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 188, 432); // ce (w, aG)
+// Elapsed time: 11 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 226, 482); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 108, 195); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 108, 195, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 174, 687); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 203, 670); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 86, 680); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 52, 671); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 19, 667); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 360, 678); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 319, 668); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+// [GUI Memory]: 107 MB (+4141kb) [00:24:52]
+selectCodeEditor("Instruction_Decoder.vhd", 190, 692); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 226, 640); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 334, 635); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 213, 656); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 327, 616); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 57, 639); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 173, 667); // ce (w, aG)
+// Elapsed time: 54 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 95, 681); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 67, 668); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 117, 679); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 31, 692); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 1, 692); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 120, 678); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 110, 762); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 304, 700); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 304, 700, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 275, 704); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 276, 704, false, false, false, false, true); // ce (w, aG) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 246, 700); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 125, 666); // ce (w, aG)
+// Elapsed time: 46 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 91, 210); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 91, 210, false, false, false, false, true); // ce (w, aG) - Double Click
+// Elapsed time: 34 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 117, 210); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 117, 210, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 132, 215); // ce (w, aG)
+// Elapsed time: 10 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 100, 218); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 100, 218, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 117, 215); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 105, 215); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 105, 215, false, false, false, false, true); // ce (w, aG) - Double Click
+// Elapsed time: 53 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 70, 394); // ce (w, aG)
+// Elapsed time: 12 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 327, 655); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 107, 212); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 107, 212, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 119, 672); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 88, 671); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 88, 676); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 83, 676); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 83, 675); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 72, 390); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 72, 390, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 87, 417); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 87, 407); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 87, 407, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 200, 670); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 162, 714); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 136, 674); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 271, 671); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 4, 672); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 342, 614); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 56, 636); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 314, 698); // ce (w, aG)
+// Elapsed time: 33 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 46, 383); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 75, 375); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 61, 381); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 52, 384); // ce (w, aG)
+// HMemoryUtils.trashcanNow. Engine heap size: 638 MB. GUI used memory: 47 MB. Current time: 7/20/22 11:58:28 AM IST
+selectCodeEditor("Instruction_Decoder.vhd", 46, 386); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 284, 376); // ce (w, aG)
+// Elapsed time: 13 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 181, 781); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 195, 789); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 116, 587); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 158, 623); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 130, 591); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 305, 603); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 287, 603); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 287, 603, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 190, 600); // ce (w, aG)
+// Elapsed time: 12 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 318, 486); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 379, 633); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 311, 700); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 389, 676); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 321, 604); // ce (w, aG)
+// Elapsed time: 142 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 193, 645); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 193, 645, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 198, 626); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 198, 626, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 193, 643); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 193, 643, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 202, 689); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 142, 619); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 221, 626); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 214, 625); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 210, 623); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 224, 696); // ce (w, aG)
+// Elapsed time: 107 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 217, 607); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 128, 691); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 342, 537); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 164, 530); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 304, 443); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 315, 444); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 112, 588); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 113, 607); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 60, 464); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 60, 464, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 61, 581); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 61, 581, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 278, 587); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 278, 587, false, false, false, false, true); // ce (w, aG) - Double Click
+// Elapsed time: 17 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 351, 596); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 337, 589); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 337, 589, false, false, false, false, true); // ce (w, aG) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 194, 588); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 263, 611); // ce (w, aG)
+// Elapsed time: 12 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 321, 586); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 123, 604); // ce (w, aG)
+// Elapsed time: 11 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 251, 637); // ce (w, aG)
+// Elapsed time: 25 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 61, 132); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 181, 129); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 175, 123); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 145, 418); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 321, 381); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 229, 61); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 138, 61); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 145, 60); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 229, 59); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 148, 56); // ce (w, aG)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 141, 423); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 178, 398); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 56, 395); // ce (w, aG)
+// Elapsed time: 116 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 68, 158); // ce (w, aG)
+// Elapsed time: 33 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 144, 162); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 140, 302); // ce (w, aG)
+// Elapsed time: 87 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 139, 310); // ce (w, aG)
+// Elapsed time: 47 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 138, 310); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 146, 313); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 139, 313); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 143, 292); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 145, 569); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 141, 313); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 145, 590); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 142, 602); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 145, 608); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 172, 771); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 143, 90); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 109, 584); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 109, 584, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 147, 763); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 147, 762, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+// Elapsed time: 57 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 123, 232); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 123, 232, false, false, false, false, true); // ce (w, aG) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 270, 811); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 228, 812); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 228, 812, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 332, 819); // ce (w, aG)
+// Elapsed time: 18 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 200, 731); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 274, 709); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 53, 730); // ce (w, aG)
+// Elapsed time: 13 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 428, 40); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 440, 30); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 397, 91); // ce (w, aG)
+// Elapsed time: 40 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 232, 358); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 298, 704); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+// Elapsed time: 56 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 170, 728); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 41, 724); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 31, 727); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 104, 705); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 104, 705, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 113, 727); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 158, 724); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 120, 130); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 119, 130, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 155, 425); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 155, 425, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 149, 419); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 149, 419, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 237, 416); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 211, 428); // ce (w, aG)
+// Elapsed time: 51 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 15, 478); // ce (w, aG)
+// Elapsed time: 95 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 118, 261); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 118, 261, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 177, 433); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 342, 420); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 76, 579); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 76, 579, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 80, 570); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 80, 570, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 213, 550); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+// Elapsed time: 14 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 295, 540); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 89, 536); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 5, 536); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 251, 514); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 334, 525); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 370, 539); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 237, 512); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 263, 519); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 231, 516); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 334, 569); // ce (w, aG)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Instruction_Decoder.vhd", 350, 600); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 110, 300); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 110, 300, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 155, 596); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 155, 596, false, false, false, false, true); // ce (w, aG) - Double Click
+selectCodeEditor("Instruction_Decoder.vhd", 158, 587); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 158, 587, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 327, 583); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 357, 606); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 223, 588); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 291, 629); // ce (w, aG)
+// Elapsed time: 16 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 379, 602); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 89, 628); // ce (w, aG)
+// Elapsed time: 13 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 224, 625); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 180, 631); // ce (w, aG)
+// Elapsed time: 133 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 116, 518); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 116, 518, false, false, false, false, true); // ce (w, aG) - Double Click
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 340, 393); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 353, 395); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 332, 381); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+// Elapsed time: 76 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 256, 666); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 183, 650); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 240, 505); // ce (w, aG)
+// Elapsed time: 10 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 12, 743); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 180, 390, false, false, false, true, false); // ce (w, aG) - Popup Trigger
+selectCodeEditor("Instruction_Decoder.vhd", 38, 743); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 51, 829); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 24, 823); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 49, 544); // ce (w, aG)
+// Elapsed time: 13 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 126, 404); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 212, 402); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 227, 400); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 343, 314); // ce (w, aG)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Instruction_Decoder.vhd", 135, 542); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 134, 556); // ce (w, aG)
+// Elapsed time: 28 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 214, 504); // ce (w, aG)
+// Elapsed time: 22 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 227, 512); // ce (w, aG)
+// Elapsed time: 11 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 248, 701); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 216, 698); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 330, 414); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 333, 312); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 199, 332); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("Instruction_Decoder.vhd", 127, 299); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 148, 298); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 280, 311); // ce (w, aG)
+// Elapsed time: 49 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 193, 406); // ce (w, aG)
+// Elapsed time: 13 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 123, 563); // ce (w, aG)
+// Elapsed time: 14 seconds
+selectCodeEditor("Instruction_Decoder.vhd", 362, 674); // ce (w, aG)
+// HMemoryUtils.trashcanNow. Engine heap size: 638 MB. GUI used memory: 46 MB. Current time: 7/20/22 12:28:29 PM IST
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'c'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 181, 557); // ce (w, aG)
+typeControlKey((HResource) null, "Instruction_Decoder.vhd", 'v'); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 57, 566); // ce (w, aG)
+selectCodeEditor("Instruction_Decoder.vhd", 336, 524); // ce (w, aG)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, aG)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// PAResourceOtoP.PAViews_CODE: Code: close view
+closeFrame(PAResourceOtoP.PAViews_CODE, "Instruction_Decoder.vhd"); // aw (aE, aG)
+dockFrame(PAResourceOtoP.PAViews_CODE, "Instruction_Decoder.vhd"); // aw (aE, aG)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // J
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Register_Bank(Behavioral) (Register_Bank.vhd)]", 1); // B (D, ck)
+// RDIResource.RDIViews_PROPERTIES: Source File Properties: close view
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Instruction_Decoder(Behavioral) (Instruction_Decoder.vhd)]", 16, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top Instruction_Decoder [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, ck)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (ck): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ck)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a35tcpg236-1 Top: Instruction_Decoder 
+// [Engine Memory]: 843 MB (+192994kb) [01:02:12]
+// TclEventType: ELABORATE_FINISH
+// HMemoryUtils.trashcanNow. Engine heap size: 843 MB. GUI used memory: 47 MB. Current time: 7/20/22 12:29:54 PM IST
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 965 MB. GUI used memory: 47 MB. Current time: 7/20/22 12:30:00 PM IST
+// [Engine Memory]: 973 MB (+91851kb) [01:02:20]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2018.2/data/parts/xilinx/artix7/devint/artix7/xc7a35t/xc7a35t.xgd; ZipEntry: xc7a35t_detail.xgd elapsed time: 0.8s
+// [Engine Memory]: 1,043 MB (+21824kb) [01:02:21]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.7s
+// Schematic: addNotify
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 941.250 ; gain = 98.883 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder' [C:/Users/94703/Downloads/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd:46] INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder' (1#1) [C:/Users/94703/Downloads/Nano/Nano.srcs/sources_1/new/Instruction_Decoder.vhd:46] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 983.391 ; gain = 141.023 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 983.391 ; gain = 141.023 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 983.391 ; gain = 141.023 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:23 ; elapsed = 00:00:21 . Memory (MB): peak = 1300.105 ; gain = 457.738 
+// Tcl Message: 6 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:21 . Memory (MB): peak = 1300.105 ; gain = 457.738 
+// 'dP' command handler elapsed time: 23 seconds
+// Elapsed time: 22 seconds
+dismissDialog("Open Elaborated Design"); // bx (ck)
+floatView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: float view
+// [GUI Memory]: 145 MB (+34428kb) [01:02:35]
+// [Engine Memory]: 1,136 MB (+43178kb) [01:02:35]
+// [GUI Memory]: 154 MB (+1618kb) [01:02:40]
+// PAPropertyPanels.initPanels (Add_Sub_Sel_reg (RTL_LATCH2)) elapsed time: 0.3s
+// Elapsed time: 51 seconds
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 1336, 129, 1853, 987, false, false, false, true, false); // f (aw, aG) - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 1,160 MB. GUI used memory: 78 MB. Current time: 7/20/22 12:31:04 PM IST
+selectView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic", 1332, 124, 1853, 987, false, false, false, true, false); // f (aw, aG) - Popup Trigger
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: close view
+// Elapsed time: 50 seconds
+closeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+dockFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aw (aE, aG)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+// Elapsed time: 20 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // J
+// RDIResource.RDIViews_PROPERTIES: Cell Properties: close view
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aE (Q, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Instruction_Decoder(Behavioral) (Instruction_Decoder.vhd)]", 16, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Instruction_Decoder(Behavioral) (Instruction_Decoder.vhd)]", 16, false, false, false, false, false, true); // B (D, ck) - Double Click
+floatView(PAResourceOtoP.PAViews_CODE, "Instruction_Decoder.vhd"); // aw (aE, ck)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// PAResourceOtoP.PAViews_CODE: Code: close view
+// Elapsed time: 14 seconds
+closeFrame(PAResourceOtoP.PAViews_CODE, "Instruction_Decoder.vhd"); // aw (aE, aG)
+dockFrame(PAResourceOtoP.PAViews_CODE, "Instruction_Decoder.vhd"); // aw (aE, aG)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+dismissDialog("Add Sources"); // c (ck)
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Program_ROM(Behavioral) (Program_ROM.vhd)]", 17, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Program_ROM(Behavioral) (Program_ROM.vhd)]", 17, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Instruction_Decoder(Behavioral) (Instruction_Decoder.vhd)]", 16, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Instruction_Decoder(Behavioral) (Instruction_Decoder.vhd)]", 16, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Program_ROM(Behavioral) (Program_ROM.vhd)]", 17, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Program_ROM(Behavioral) (Program_ROM.vhd)]", 17, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 32 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// PAResourceOtoP.PAViews_CODE: Code: close view
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
